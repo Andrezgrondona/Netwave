@@ -39,9 +39,8 @@ export default async function TorneoList() {
                 height={200}
                 className="mx-auto"
             />
-            {torneos.map(t => (
-
-                <div className="max-w-md mx-auto mt-8 bg-white p-8 rounded shadow-md flex flex-col items-center justify-center">
+            {torneos.map((t) => (
+                <div key={t._id} className="max-w-md mx-auto mt-8 bg-white p-8 rounded shadow-md flex flex-col items-center justify-center">
                     <div>
                         <h2 className="font-bold text-3xl text-orange-500">{t.title}</h2>
                         <div className="text-gray-700">{t.description}</div>
