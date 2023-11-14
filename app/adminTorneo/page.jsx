@@ -4,11 +4,12 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 
-export default function adminTorneo() {
+export default function AdminTorneo() {
+
     const [title, setTitle] = useState("");
     const [description, setDescription] = useState("");
-
-    const router = useRouter()
+  
+    const router = useRouter();
 
     const handleSubmit = async (e) => {
         e.preventDefault()
