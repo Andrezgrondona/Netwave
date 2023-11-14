@@ -34,7 +34,7 @@ export default function ContactForm() {
             })
         })
 
-        const { msg, success  } = await res.json()
+        const { msg, success } = await res.json()
         setError(msg)
         setSuccess(success)
         if (success) {
@@ -101,13 +101,11 @@ export default function ContactForm() {
                 </button>
 
                 <div className="mt-4">
-                    {
-                        error && error.map(e => (
-                            <div className={`${success ? "text-green-800" : "text-red-600"} text-sm`}>{e}</div>
-                        ))
-                    }
-
+                    {error && error.map((e, index) => (
+                        <div key={index} className={`${success ? "text-green-800" : "text-red-600"} text-sm`}>{e}</div>
+                    ))}
                 </div>
+
             </form>
         </>
     );
