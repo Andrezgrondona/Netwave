@@ -30,13 +30,12 @@
 //---------------------------------------------
 import EditTorneoForm from "@/components/EditTorneoForm";
 
-const apiUrl =
-  process.env.NODE_ENV === "production"
-    ? "https://netwave-sigma.vercel.app"
-    : "http://localhost:3000";
-
 const getTorneoById = async (id) => {
     try {
+        const apiUrl = process.env.NODE_ENV === 'production'
+            ? "https://netwave-sigma.vercel.app"
+            : "http://localhost:3000";
+
         const res = await fetch(`${apiUrl}/api/torneos/${id}`, {
             cache: "no-store"
         });
@@ -60,3 +59,4 @@ export default async function editTorneo({ params }) {
         <EditTorneoForm id={id} title={title} description={description} />
     );
 }
+
