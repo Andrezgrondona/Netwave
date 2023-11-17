@@ -26,6 +26,8 @@ const handler = NextAuth({
     
   ],
 
+  secret: process.env.GOOGLE_SECRET,
+
  
   allowedHosts: [
     'localhost:3000', 
