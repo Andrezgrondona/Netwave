@@ -27,7 +27,11 @@ export default function Navbar() {
                     Admin Torneo
                 </Link>
 
-                {/* <Link href="/suscripcion" className="bg-white py-2 px-4 rounded-full">
+                <Link href="/formulario" className="text-orange-500 border border-gray-300 text-sm py-2 px-4 rounded-full hover:bg-gray-100">
+                    Formulario
+                </Link>
+
+                {/* <Link href="/suscripcion" className="text-orange-500 border border-gray-300 text-sm py-2 px-4 rounded-full hover:bg-gray-100">
                     Suscripción
                 </Link> */}
 
