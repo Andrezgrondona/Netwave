@@ -29,7 +29,7 @@ const handler = NextAuth({
  
   allowedHosts: [
     'localhost:3000', 
-    'netwave-sigma.vercel.app', // ✅ Agregar dominio de producción
+    'netwave-a6c3yygdh-andrezgrondona.vercel.app', // ✅ Agregar dominio de producción
   ],
   
 });
