@@ -32,11 +32,10 @@ To learn more about Next.js, take a look at the following resources:
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
--You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 
-## Deploy - Vercel
-https://netwave-sigma.vercel.app/
+
+
 
 
 ## Mongodb database
@@ -44,3 +43,9 @@ https://netwave-sigma.vercel.app/
 mongodb+srv://navewave:5TujBa6Ahll3qGP5@cluster0.iihacsh.mongodb.net/netwave_torneo
 
 mongodb+srv://afgo4ster:l9BHGXZEB1rmc2yG@cluster0.oly43nc.mongodb.net/contact_netwave
+
+
+
+## Deploy vercel
+https://netwave-sigma.vercel.app/
+
